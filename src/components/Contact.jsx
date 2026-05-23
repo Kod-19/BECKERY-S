@@ -79,7 +79,7 @@ const Contact = () => {
 
             <div className='mt-8 flex flex-col gap-5'>
               {[
-                { label: 'Phone / WhatsApp', value: '0557 443 430 / 0507 011 697', href: 'tel:+233557443430' },
+                { label: 'Phone / WhatsApp', value: '0557 443 430 / 0507 011 697', href: 'tel:+233507011697' },
                 { label: 'Instagram', value: '@beckerys_', href: 'https://instagram.com/beckerys_' },
                 { label: 'Location', value: 'Madina UN, near Amanth Beauty Parlor, Accra', href: null },
               ].map((item) => (
@@ -108,14 +108,14 @@ const Contact = () => {
 
             <div className='flex flex-wrap gap-3 mt-8'>
               <a
-                href="tel:+233557443430"
+                href="tel:+233507011697"
                 className='py-3 px-6 rounded-lg font-bold text-sm hover:opacity-90 transition-all'
                 style={{ backgroundColor: 'var(--dark-text)', color: 'var(--footer-bg)' }}
               >
                 Call to pre-order
               </a>
               <a
-                href="https://wa.me/233557443430"
+                href="https://wa.me/233507011697"
                 target="_blank"
                 rel="noreferrer"
                 className='py-3 px-6 rounded-lg font-bold text-sm border hover:scale-105 transition-all'

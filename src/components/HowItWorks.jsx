@@ -9,7 +9,7 @@ const steps = [
   {
     num: '2',
     title: 'Confirm by phone',
-    desc: 'Message or call 0557443430 / 0507011697 to confirm your order.',
+    desc: 'Message or call 0507011697 to confirm your order.',
   },
   {
     num: '3',
@@ -86,14 +86,14 @@ const HowItWorks = () => {
           </div>
           <div className='flex flex-wrap gap-3'>
             <a
-              href="tel:+233557443430"
+              href="tel:+233507011697"
               className='py-3 px-6 rounded-lg font-bold text-sm hover:opacity-90 transition-all hover:scale-105 duration-150'
               style={{ backgroundColor: 'var(--dark-text)', color: 'var(--footer-bg)' }}
             >
-              Call 0557 443 430
+              Call 0507011697
             </a>
             <a
-              href="https://wa.me/233557443430"
+              href="https://wa.me/233507011697"
               target="_blank"
               rel="noreferrer"
               className='py-3 px-6 rounded-lg font-bold text-sm border hover:scale-105 duration-150 transition-all'

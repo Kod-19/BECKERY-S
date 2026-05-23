@@ -15,7 +15,7 @@ const CustomCakes = () => {
     e.preventDefault()
     const msg = `Hello! I'd like to inquire about a custom cake.\n\nName: ${name}\nPhone: ${phone}\nDate: ${date}\nSize: ${size}\nFlavour/Theme: ${flavour}\nPickup/Delivery: ${delivery}\nBudget: ${budget}`
     const encoded = encodeURIComponent(msg)
-    window.open(`https://wa.me/233557443430?text=${encoded}`, '_blank')
+    window.open(`https://wa.me/233507011697?text=${encoded}`, '_blank')
     setSubmitted(true)
   }
 
@@ -164,7 +164,7 @@ const CustomCakes = () => {
                   className='w-full py-3 rounded-lg font-bold text-sm mt-1 hover:opacity-90 transition-all'
                   style={{ backgroundColor: 'var(--button-color)', color: 'var(--dark-text)' }}
                 >
-                  Send inquiry via WhatsApp -&gt;
+                  Send inquiry via WhatsApp
                 </button>
               </form>
             )}

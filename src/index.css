@@ -9,8 +9,16 @@
   --border-color: #E9D8BC;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body,
 #root {
   min-height: 100%;
+}
+
+* {
+  box-sizing: border-box;
 }

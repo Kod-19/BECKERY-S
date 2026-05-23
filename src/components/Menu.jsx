@@ -21,13 +21,13 @@ const menuItems = [
     image: cupcakesImage,
     name: 'Cupcakes',
     desc: 'Box of 6 or 12 in chocolate, red velvet, butterscotch, or vanilla.',
-    price: 'Box options',
+    price: '35 GHS',
   },
   {
     image: loafCakesImage,
     name: 'Loaf Cakes',
     desc: 'Classic and flavored loaf cakes, perfect for gifting or slicing.',
-    price: 'Ask for pricing',
+    price: '85 GHS',
   },
   {
     image: cookiesImage,

@@ -5,6 +5,8 @@ import Menu from './components/Menu'
 import CustomCakes from './components/CustomCakes'
 import HowItWorks from './components/HowItWorks'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
+import Testimonials from './components/Testimonials'
 
 
 const App = () => {
@@ -16,7 +18,9 @@ const App = () => {
         <Menu />
         <CustomCakes />
         <HowItWorks />
+        <Testimonials />
         <Contact />
+        <Footer />
       </div>
     </div>
   )

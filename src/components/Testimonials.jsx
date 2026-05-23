@@ -23,7 +23,7 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section className='py-20' style={{ backgroundColor: 'var(--bg-color)' }}>
+    <section id='testimonials' className='py-20' style={{ backgroundColor: 'var(--bg-color)' }}>
       <div className='mx-auto max-w-7xl px-6'>
         <p
           className='uppercase font-bold text-xs tracking-widest mb-4'

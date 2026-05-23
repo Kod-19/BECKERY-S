@@ -33,6 +33,7 @@ const Navbar = () => {
             <a className='hover:opacity-70 hover:scale-105 duration-150 transition-all' href="#menu">Menu</a>
             <a className='hover:opacity-70 hover:scale-105 duration-150 transition-all' href="#custom-cakes">Custom Cakes</a>
             <a className='hover:opacity-70 hover:scale-105 duration-150 transition-all' href="#how-it-works">How it works</a>
+            <a className='hover:opacity-70 hover:scale-105 duration-150 transition-all' href="#testimonials">Testimonials</a>
             <a className='hover:opacity-70 hover:scale-105 duration-150 transition-all' href="#contact">Contact</a>
             <a
               href="#how-it-works"
@@ -72,6 +73,7 @@ const Navbar = () => {
             <a className='font-bold text-sm hover:opacity-70' href="#menu" onClick={() => setMenuOpen(false)}>Menu</a>
             <a className='font-bold text-sm hover:opacity-70' href="#custom-cakes" onClick={() => setMenuOpen(false)}>Custom Cakes</a>
             <a className='font-bold text-sm hover:opacity-70' href="#how-it-works" onClick={() => setMenuOpen(false)}>How it works</a>
+            <a className='font-bold text-sm hover:opacity-70' href="#testimonials" onClick={() => setMenuOpen(false)}>Testimonials</a>
             <a className='font-bold text-sm hover:opacity-70' href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
             <a
               href="#how-it-works"

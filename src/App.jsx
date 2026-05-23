@@ -11,17 +11,17 @@ import Testimonials from './components/Testimonials'
 
 const App = () => {
   return (
-    <div className='min-h-screen bg-(--bg-color)'>
-      <div className='mx-auto max-w-7xl'>
-        <Navbar />
+    <div className='min-h-screen' style={{ backgroundColor: 'var(--bg-color)' }}>
+      <Navbar />
+      <main>
         <Home />
         <Menu />
         <CustomCakes />
         <HowItWorks />
         <Testimonials />
         <Contact />
-        <Footer />
-      </div>
+      </main>
+      <Footer />
     </div>
   )
 }

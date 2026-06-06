@@ -19,7 +19,7 @@ const HeroImage = () => (
     >
       <p className='text-xs font-bold mb-1' style={{ color: 'var(--body-text)' }}>Most popular</p>
       <p className='font-serif font-bold text-base' style={{ color: 'var(--dark-text)' }}>Banana Bread</p>
-      <p className='text-sm font-bold' style={{ color: 'var(--button-color)' }}>from 15 GHS</p>
+      <p className='text-sm font-bold' style={{ color: 'var(--button-color)' }}>from 45 GHS</p>
     </div>
   </div>
 )
